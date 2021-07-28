@@ -1,0 +1,205 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+        .header-container {
+            position: relative;
+            border: 2px solid black;
+            width: auto;
+            min-height: 500px;
+            background-image: url("bg.jpg");
+            background-size: 100% 100%;
+            background-color: grey;
+            opacity: 0.8;
+        }
+
+        header>p {
+            color: white;
+            position: absolute;
+            font-size: 30px;
+            left: 10px;
+            top: 5px;
+        }
+
+        article>p {
+            color: white;
+            position: absolute;
+            font-size: 70px;
+            width: 100%;
+            height: 250px;
+            top: 50%;
+            margin-top: -100px;
+            text-align: center;
+        }
+
+        a {
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .flex-container {
+            position: relative;
+            display: flex;
+            height: 100px;
+            flex-direction: row-reverse;
+
+        }
+
+
+        .flex-container>div {
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+
+        .flex-container1 {
+            display: flex;
+            height: 200px;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .flex-container1>div {
+            flex-basis: 350px;
+            margin: 10px;
+            font-size: 30px;
+            box-shadow: 12px 12px 24px 1px rgb(184, 166, 247);
+        }
+
+        h4+p,
+        div h4 {
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        article>h3 {
+            width: 100%;
+            text-align: center;
+            text-shadow: 10xp 31px black;
+            margin-bottom: 100px;
+        }
+
+        a:active,
+        a:hover {
+            text-decoration: none;
+        }
+
+        section p {
+            font-size: 17px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        section {
+            transition: transform 2s ease 1s;
+            margin: 200px 2px 1px 2px;
+        }
+
+        .flex-container1>div:hover {
+            transform-origin: center;
+            transform: perspective(200px) translateZ(30px) scale(1, 1);
+            background-color: rgb(181, 181, 235);
+        }
+
+        footer>div {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-container">
+        <p>testsite</p>
+        <nav class="flex-container">
+
+            <div> <a href="">Contact</a></div>
+            <div> <a href="">About</a></div>
+            <div> <a href="">Home</a></div>
+        </nav>
+    </header>
+    <article>
+        <p> welcome </p>
+    </article>
+    <section>
+        <article>
+            <h3> my work section</h3>
+            <div class="flex-container1">
+                <div>
+                    <h4><b>web services framework</b></h4>
+                    <p>
+                        The framework contains various tags that are similar to Spring Boot.
+                    </p>
+                </div>
+                <div>
+                    <h4><b>chat room</b></h4>
+                    <p>
+                        This Project is used basically for chatting purposes with remote clients.
+                    </p>
+                </div>
+                <div>
+                    <h4><b>Inventory Management System</b></h4>
+                    <p>
+                        The application aims at providing a convenient means for firms,
+                        and shopkeepers to maintain Information about the stock currently available.
+
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h3>my skill section<h3>
+                    <div class="flex-container1">
+                        <div>
+                            <h4><b>software</b></h4>
+                            <p>
+                                html<br>
+                                css<br>
+                                javascript<br>
+                                .net
+                            </p>
+                        </div>
+                        <div>
+                            <h4><b>photography</b></h4>
+                            <p>
+                                Portrait Photography<br>
+                                Photojournalism<br>
+                                Fashion Photography<br>
+                                Sports Photography
+                            </p>
+                        </div>
+                        <div>
+                            <h4><b>content editing</b></h4>
+                            <p>
+                                Line Editing<br>
+                                Mechanical Editing<br>
+                                Substantive Editing<br>
+                                Developmental Editing
+                            </p>
+                        </div>
+                    </div>
+        </article>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer style="background-color: rgb(131, 131, 231)">
+        <div class="flex-container">
+            <div> <a href="">contribute</a></div>
+            <div> <a href="">privacy policy</a></div>
+            <div> <a href="">sitemap</a></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
