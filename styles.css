@@ -1,0 +1,132 @@
+.header-container {
+            position: relative;
+            width: auto;
+            min-height: 500px;
+            margin-bottom: 100px;
+            background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+            height: 100vh;
+            opacity: 0.8;
+            background-size: 100% 100%;
+            background-color: grey;
+
+        }
+
+        header>p {
+            color: white;
+            position: absolute;
+            font-size: 30px;
+            left: 10px;
+            top: 5px;
+        }
+
+        article>p {
+            color: white;
+            position: absolute;
+            font-size: 70px;
+            width: 100%;
+            height: 50%;
+            top: 50%;
+            margin-top: -100px;
+            text-align: center;
+        }
+
+        a {
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .flex-container {
+            position: relative;
+            display: flex;
+            height: 100px;
+            flex-direction: row-reverse;
+        }
+
+
+        .flex-container>div {
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+
+        .flex-container1 {
+            display: flex;
+            flex-wrap: wrap;
+            height: 200px;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .flex-container1>div {
+            flex-basis: 350px;
+            margin: 10px;
+            font-size: 30px;
+            box-shadow: 12px 12px 30px 0px #c4d1e7;
+        }
+
+        h4+p,
+        div h4 {
+            font-size: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        article>h3 {
+            width: 100%;
+            text-align: center;
+            text-shadow: 10xp 31px black;
+            margin-bottom: 60px;
+        }
+
+        a:active,
+        a:hover {
+            text-decoration: none;
+        }
+
+        section p {
+            position: relative;
+            font-size: 17px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        section {
+            /*;flex margin: 200px 2px 1px 50px;*/
+            position: relative;
+            height: 400px;
+            transition: transform 2s ease 1s;
+
+        }
+
+        .flex-container1>div:hover {
+            transform-origin: center;
+            transform: perspective(200px) translateZ(30px) scale(1, 1);
+            background-color: #b8caec;
+        }
+
+        footer>div {
+            justify-content: center;
+        }
+
+        footer {
+            background-color: #5a80c5;
+
+        }
+
+
+        .heading {
+            text-decoration: underline;
+            text-decoration-color: #5a80c5;
+        }
+
+        .intro-section {
+            font-family: italic;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
